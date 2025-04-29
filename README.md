@@ -36,9 +36,7 @@ Think of it like a doctor doing a full health checkup on your server, then presc
 
             Applies firewall rules to allow only essential traffic ✅
 
-   
-
-                 💡 Why It’s Useful
+                    💡 Why It’s Useful
 | Use Case                        | Benefit                                                                 |
 |---------------------------------|-------------------------------------------------------------------------|
 | 🛡️ Security compliance          | Ensures servers meet organizational or regulatory security standards   |
