@@ -15,6 +15,7 @@ Think of it like a doctor doing a full health checkup on your server, then presc
 
 🛠️ What Does It Actually Do?
 1. Audits: Who has root (UID 0) access?
+
            Are there users with no passwords or weak passwords?
 
            Are there any files anyone can write to (world-writable)?
@@ -27,7 +28,7 @@ Think of it like a doctor doing a full health checkup on your server, then presc
 
            Any SSH login failures or brute force attempts recently?
 
-2. Hardens: Disables root password SSH access ✅
+3. Hardens: Disables root password SSH access ✅
 
             Enables automatic security updates ✅
 
@@ -35,8 +36,9 @@ Think of it like a doctor doing a full health checkup on your server, then presc
 
             Applies firewall rules to allow only essential traffic ✅
 
-                 💡 Why It’s Useful
+   
 
+                 💡 Why It’s Useful
 | Use Case                        | Benefit                                                                 |
 |---------------------------------|-------------------------------------------------------------------------|
 | 🛡️ Security compliance          | Ensures servers meet organizational or regulatory security standards   |
