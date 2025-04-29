@@ -16,8 +16,13 @@
 ## 🚀 Getting Started
 
 git clone https://github.com/Pranaykokkonda/Technical-task-OM.git
+
 cd Technical-task-OM
+
 chmod +x audit_hardening.sh modules/*.sh
+
 sudo ./audit_hardening.sh
+
 ls reports/
+
 cat reports/audit_report_*
