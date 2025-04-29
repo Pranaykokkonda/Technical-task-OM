@@ -1,16 +1,20 @@
 # 🔐 Linux Security Audit & Hardening Script
 
 🔍 What Is This Script Really?
+
 This is a Linux server security auditing and hardening tool — written in Bash — that performs a comprehensive checklist of security inspections and automatic fixes.
 It combines:
+
 ✅ Audit: Checking for vulnerabilities, misconfigurations, and weak security setups.
+
 ✅ Hardening: Automatically applying best practices to secure your server.
+
 ✅ Reporting: Saving everything it finds or changes in a detailed .txt file.
+
 Think of it like a doctor doing a full health checkup on your server, then prescribing immediate fixes — and writing everything down for your records.
 
 🛠️ What Does It Actually Do?
 1. Audits: Who has root (UID 0) access?
-
            Are there users with no passwords or weak passwords?
 
            Are there any files anyone can write to (world-writable)?
