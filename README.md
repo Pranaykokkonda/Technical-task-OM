@@ -13,7 +13,11 @@
 - 📧 Optional Email/Cloud Report Delivery
 
 ---
+## 🚀 Getting Started
 
-## 📦 Project Structure
-
-Technical-task-OM/ ├── audit_hardening.sh # Main script ├── modules/ # Modular audit components │ ├── user_group_audit.sh │ ├── file_perm_audit.sh │ ├── service_audit.sh │ ├── firewall_network.sh │ ├── ip_check.sh │ ├── log_monitoring.sh │ ├── hardening.sh │ ├── custom_checks.sh ├── config/ │ └── security_config.cfg # Configurable settings ├── reports/ │ └── audit_report_*.txt # Timestamped reports └── README.md
+git clone https://github.com/Pranaykokkonda/Technical-task-OM.git
+cd Technical-task-OM
+chmod +x audit_hardening.sh modules/*.sh
+sudo ./audit_hardening.sh
+ls reports/
+cat reports/audit_report_*
